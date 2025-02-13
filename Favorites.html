@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #004953;
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #004953;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar img {
+            width: 230px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+
+        }
+        .sidebar a {
+            display: block;
+            background-color: #ffffff;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .favorite-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .favorite-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .favorites p {
+            font-size: 18px;
+            margin: 0;
+        }
+        .footer {
+            background-color: #004953;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Anthony Jun P. Lapeña
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="IMAGES/IMG_8000.jpg" alt="Profile Picture">
+            <a href="AboutMe.html">About Me</a>
+            <a href="Subject Taken.html">Subject Taken</a>
+            <a href="Enrolled.html">Enrolled</a>
+            <a href="Contact Me.html">Contact Me</a>
+            <a href="Favorites.html">My Favorites</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+
+        <div class="content">
+            <h2 style="font-size: 28px;">My Favorites</h2>
+            <div class="favorites">
+                <div class="favorite-item">
+                    <img src="IMAGES/valorant.jpg" alt="Valorant">
+                    <p><strong>Favorite Game:</strong> Valorant because this game helps me remove negativity and enjoy myself. When I have free time, I usually play this game with friends.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/lebron.jpg" alt="LeBron James">
+                    <p><strong>Favorite Basketball Player:</strong> LeBron James. Since I was a child, my friends and I would usually watch the NBA on TV, and we always watched his games when he played for the Miami Heat.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/sinigang.jpg" alt="Sinigang">
+                    <p><strong>Favorite Food:</strong> Sinigang because I love sour food. Every time I cook, I always make sinigang because it’s so delicious that it always gets finished.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/gaming.jpg" alt="Gaming">
+                    <img src="IMAGES/basketball.jpg" alt="Gaming">
+                    <p><strong>Favorite Activity:</strong> Playing video games and basketball because both are fun and help relieve my stress.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/f1.jpg" alt="F1 Racing">
+                    <img src="IMAGES/nba.jpg" alt="NBA">
+                    <p><strong>Favorite Sports:</strong> F1 and basketball because I enjoy watching my idols. One of them is an incredible driver with seven F1 World Championships, and the other has four NBA Championship rings.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/japan.jpg" alt="Japan">
+                    <img src="IMAGES/uk.jpg" alt="uk">
+                    <img src="IMAGES/usa.jpg" alt="usa">
+                    <p><strong>Favorite Travel Destination:</strong> USA, Japan, and the UK. I want to visit Japan to see Mount Fuji and their cool modified cars. I want to go to the USA to see my idol, LeBron James, and to the UK to see my idol, Lewis Hamilton.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/blue.jpg" alt="Blue Color">
+                    <p><strong>Favorite Color:</strong> Blue. I just like the color blue.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/editing.jpg" alt="Editing">
+                    <p><strong>Favorite Hobby:</strong> Editing. I love editing because it’s enjoyable and also helps me earn money.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/wonka.jpg" alt="Wonka Movie">
+                    <p><strong>Favorite Movie:</strong> Wonka because it has a lot of singing, and I enjoy movies with a lot of music.</p>
+                </div>
+
+                <div class="favorite-item">
+                    <img src="IMAGES/anime.jpg" alt="The Dreaming Boy Is a Realist">
+                    <p><strong>Favorite Anime:</strong> The Dreaming Boy Is a Realist. This is the first romance anime I watched, and I liked it a lot because it tells the story of a boy who constantly approaches the girl he has a crush on.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 - 2025 ITP4 | All Rights Reserved
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #004953;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #004953;
+            padding: 20px;
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar img {
+            width: 230px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .sidebar a {
+            display: block;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .active {
+            background-color: #d3d3d3;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-container {
+            display: flex;
+            align-items: center;
+        }
+        .contact-details {
+            font-size: 18px;
+        }
+        .contact-item {
+            margin: 15px 0;
+        }
+        .contact-item a {
+            text-decoration: none;
+            color: #004953;
+            font-weight: bold;
+        }
+        .contact-item a:hover {
+            color: #008CBA;
+        }
+        .footer {
+            background-color: #004953;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Anthony Jun P. Lapeña
+    </div>
+
+    <div class="container">
+        <!-- Sidebar Menu -->
+        <div class="sidebar">
+            <img src="IMAGES/IMG_8000.jpg" alt="Profile Picture">
+            <a href="AboutMe.html">About Me</a>
+            <a href="Subject Taken.html">Subject Taken</a>
+            <a href="Enrolled.html">Enrolled</a>
+            <a href="Contact Me.html" class="active">Contact Me</a>
+            <a href="Favorites.html">My Favorites</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="content">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        📞 Phone: <a href="tel:09815042180">09815042180</a>
+                    </div>
+                    <div class="contact-item">
+                        📧 Email: <a href="mailto:anthonyjunlapena@gmail.com">anthonyjunlapena@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        🌐 Facebook: <a href="https://www.facebook.com/profile.php?id=61552354146861" target="_blank">Anthony Jun P. Lapeña</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 - 2025 ITP4 | All Rights Reserved
+    </div>
+
+</body>
+</html>
